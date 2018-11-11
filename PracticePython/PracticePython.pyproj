@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c6a01f0e-110e-4d7d-b33c-94c28efe3ef2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PracticePython.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PracticePython</Name>
     <RootNamespace>PracticePython</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,76 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PracticePython.py" />
+    <Compile Include="main.py" />
+    <Compile Include="practice\CharacterInput\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\Divisors\Divisors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\GuessingGame\GuessingGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\GuessingGame\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ListComprehensions\ListComprehensions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\RockPaperScissors\RockPaperScissors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ListComprehensions\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ListOverlap\ListOverlap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\Divisors\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\LessThanTen\LessThanTen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\LessThanTen\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ListOverlap\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\OddEven\OddEven.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\OddEven\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\palindrome\palindrome.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\palindrome\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\RockPaperScissors\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\CharacterInput\CharacterInput.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="practice\" />
+    <Folder Include="practice\CharacterInput\" />
+    <Folder Include="practice\Divisors\" />
+    <Folder Include="practice\GuessingGame\" />
+    <Folder Include="practice\LessThanTen\" />
+    <Folder Include="practice\ListComprehensions\" />
+    <Folder Include="practice\ListOverlap\" />
+    <Folder Include="practice\OddEven\" />
+    <Folder Include="practice\palindrome\" />
+    <Folder Include="practice\RockPaperScissors\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
