@@ -59,10 +59,22 @@
     <Compile Include="practice\ListEnds\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="practice\PasswordGenerator\PasswordGenerator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\PasswordGenerator\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="practice\PrimalityFunctions\PrimalityFunctions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice\PrimalityFunctions\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ReverseWord\ReverseWord.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ReverseWord\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice\RockPaperScissors\RockPaperScissors.py">
@@ -122,7 +134,9 @@
     <Folder Include="practice\ListOverlap\" />
     <Folder Include="practice\OddEven\" />
     <Folder Include="practice\palindrome\" />
+    <Folder Include="practice\PasswordGenerator\" />
     <Folder Include="practice\PrimalityFunctions\" />
+    <Folder Include="practice\ReverseWord\" />
     <Folder Include="practice\RockPaperScissors\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

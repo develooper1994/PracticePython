@@ -11,9 +11,11 @@ from practice.GuessingGame import GuessingGame as GG
 from practice.PrimalityFunctions import PrimalityFunctions as PF
 from practice.ListEnds import ListEnds as LE
 from practice.Fibonacci import Fibonacci as Fi
+from practice.PasswordGenerator import PasswordGenerator as PG
+from practice.ReverseWord import ReverseWord as RW
 
 def main():
-    n = 11 # fonksiyonlar arasında gezin.
+    n = 13 # fonksiyonlar arasında gezin.
 
     function_list=[ # practice fonksiyonlarının listesi.
     CI.CharacterInputSol, # 0
@@ -28,6 +30,8 @@ def main():
     PF.PrimalityFunctions, # 9
     LE.ListEnds, # 10
     Fi.Fibonacci, # 11
+    PG.PasswordGenerator, # 12
+    RW.ReverseWord, #13
     
     ]
 
