@@ -22,11 +22,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bonus1\NumberBases\NumberBases.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bonus1\NumberBases\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bonus1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main.py" />
     <Compile Include="practice\CharacterInput\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice\Divisors\Divisors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\Fibonacci\Fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\Fibonacci\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice\GuessingGame\GuessingGame.py">
@@ -36,6 +51,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice\ListComprehensions\ListComprehensions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ListEnds\ListEnds.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\ListEnds\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\PrimalityFunctions\PrimalityFunctions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice\PrimalityFunctions\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice\RockPaperScissors\RockPaperScissors.py">
@@ -82,15 +109,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bonus1\" />
+    <Folder Include="bonus1\NumberBases\" />
     <Folder Include="practice\" />
     <Folder Include="practice\CharacterInput\" />
     <Folder Include="practice\Divisors\" />
+    <Folder Include="practice\Fibonacci\" />
     <Folder Include="practice\GuessingGame\" />
     <Folder Include="practice\LessThanTen\" />
     <Folder Include="practice\ListComprehensions\" />
+    <Folder Include="practice\ListEnds\" />
     <Folder Include="practice\ListOverlap\" />
     <Folder Include="practice\OddEven\" />
     <Folder Include="practice\palindrome\" />
+    <Folder Include="practice\PrimalityFunctions\" />
     <Folder Include="practice\RockPaperScissors\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -8,9 +8,12 @@ from practice.palindrome import palindrome as pal
 from practice.ListComprehensions import ListComprehensions as LC
 from practice.RockPaperScissors import RockPaperScissors as TKM
 from practice.GuessingGame import GuessingGame as GG
+from practice.PrimalityFunctions import PrimalityFunctions as PF
+from practice.ListEnds import ListEnds as LE
+from practice.Fibonacci import Fibonacci as Fi
 
 def main():
-    n = 7 # fonksiyonlar arasında gezin.
+    n = 11 # fonksiyonlar arasında gezin.
 
     function_list=[ # practice fonksiyonlarının listesi.
     CI.CharacterInputSol, # 0
@@ -21,7 +24,10 @@ def main():
     pal.palindrome, # 5
     LC.ListComprehensions, # 6
     TKM.RockPaperScissors, # 7
-    GG.GuessingGame # 8
+    GG.GuessingGame, # 8
+    PF.PrimalityFunctions, # 9
+    LE.ListEnds, # 10
+    Fi.Fibonacci, # 11
     
     ]
 
@@ -29,8 +35,14 @@ def main():
     current_function()
 
 
+from bonus1.NumberBases import NumberBases as NB
+def bonusfuncs():
+    NB.NumberBases()
+
+
 if __name__ == "__main__":
     main()
+    #bonusfuncs()
 else:
     print("lütfen main.py dosyanısını kontrol edin.\n")
 
