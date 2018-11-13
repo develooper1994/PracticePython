@@ -4,7 +4,7 @@ def GuessingGame():
     tahmin = 0
     kactahmin = 0
     while tahmin != tahminedilece and tahmin != "exit":
-        tahmin = input("Enter a tahmin between 1 to 9")
+        tahmin = input("Enter a tahmin between 1 to 9: ")
         if tahmin == "exit":
             break
         tahmin = int(tahmin)
@@ -15,4 +15,4 @@ def GuessingGame():
             print("çok oldu aşağı")
         else:
             print("İşte bu :)")
-            print("Sadece", c, "denemede yaptın.")
+            print("Sadece", kactahmin, "denemede yaptın.")

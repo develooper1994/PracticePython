@@ -14,6 +14,9 @@ def PrimalityFunctions():
                 print("asal değildir.")
                 return("asal değil.")
         print("asaldır.") # sayı wasn't evenly divisible by any x, so it's prime
+    elif sayı == 2:
+        print("asaldır.")
+        return("asaldır.") # 2 asal sayıdır.
     elif sayı == 0:
         print("asal değildir.")
         return("asal değil.") # sıfır asal değildir.
